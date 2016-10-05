@@ -1,0 +1,23 @@
+{
+    "AS_Button_f656762b25dc4549a047c303b76a199e": {
+        "id": "AS_Button_f656762b25dc4549a047c303b76a199e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCustomizationOfMapPins",
+            "type": "forms",
+            "platform": null,
+            "KUID": "1e8d5ecd2344422abd3ba38674794a8f"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__bde3c29d493043668adbb9497b8cfdb9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmMap.map.locationData = [{\n  \t\t\t\t\t\t\tlat:\"17.4469390\",\n  \t\t\t\t\t\t\tlon:\"78.3741190\",\n  \t\t\t\t\t\t\tname:\"Using Image In Resources For Pin\",\n  \t\t\t\t\t\t\tdesc:\"Kony Solutions Hyderabad Office\",\n  \t\t\t\t\t\t\t//image:\"mappin.png\"\n  \t\t\t\t\t\t\timage:{\n                              source:\"mappin.png\",\n                              sourceType:kony.map.PIN_IMG_SRC_TYPE_RESOURCES,\n                              anchor:kony.map.PIN_IMG_ANCHOR_BOTTOM_CENTER\n                            }\n\t\t\t\t\t\t  }];\nfrmMap.show();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

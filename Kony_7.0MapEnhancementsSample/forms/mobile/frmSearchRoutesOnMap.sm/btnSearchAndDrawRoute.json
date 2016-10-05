@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "55dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s3fdb48c39bc4fd98d2ea87a00d1b308",
+    "_text_": "Search Route",
+    "_top_": {
+        "type": "string",
+        "value": "79dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "260dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s1b7343a0f804c69855799fee6ac1095",
+    "id": "btnSearchAndDrawRoute",
+    "ide_onClick": "AS_Button_ecd2d96d4cc84271b6942bcab3c727ac",
+    "info": null,
+    "isvisible": true,
+    "kuid": "6af50f8628c34f9e9479ca6349de49cd",
+    "name": "kony.ui.Button",
+    "parent": "frmSearchRoutesOnMap",
+    "pf": "frmSearchRoutesOnMap",
+    "wType": "Button",
+    "zindex": 1
+}

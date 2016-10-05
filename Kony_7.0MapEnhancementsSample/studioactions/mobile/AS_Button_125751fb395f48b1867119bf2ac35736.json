@@ -1,0 +1,22 @@
+{
+    "AS_Button_125751fb395f48b1867119bf2ac35736": {
+        "id": "AS_Button_125751fb395f48b1867119bf2ac35736",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmIntro",
+            "type": "forms",
+            "platform": null,
+            "KUID": "45a4742246ed446e8bede87447597c07"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_7d20018dc2ac46b5bdd424a0e17ee562",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var circleConfiguration = {\n  id:\"KonyOffice\",\n  centerLocation: {\n    lat:\"17.4469390\",\n  \tlon:\"78.3741190\"\n  },\n  radius: 5,\n  navigateAndZoom: true,\n  showCenterPin: false,\n  circleConfig:{\n\t  lineColor:\"FF0000FF\",\n\t  lineWidth:5\n  }\n};\n\nfrmMap.map.addCircle(circleConfiguration);\nfrmMap.show();\n",
+            "callbackType": null
+        }]
+    }
+}

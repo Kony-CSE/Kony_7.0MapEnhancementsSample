@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "55dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s3fdb48c39bc4fd98d2ea87a00d1b308",
+    "_text_": "By using image file path",
+    "_top_": {
+        "type": "string",
+        "value": "290dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "260dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s1b7343a0f804c69855799fee6ac1095",
+    "id": "btnByUsingImageFilePath",
+    "ide_onClick": "AS_Button_200444d8055d4a34a19f20490a42480a",
+    "info": null,
+    "isvisible": true,
+    "kuid": "c6d7209bcad445cc8bc130e1bd5b659a",
+    "name": "kony.ui.Button",
+    "parent": "frmCustomizationOfMapPins",
+    "pf": "frmCustomizationOfMapPins",
+    "wType": "Button",
+    "zindex": 1
+}

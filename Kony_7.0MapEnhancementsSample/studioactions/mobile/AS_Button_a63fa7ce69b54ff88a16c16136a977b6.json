@@ -1,0 +1,23 @@
+{
+    "AS_Button_a63fa7ce69b54ff88a16c16136a977b6": {
+        "id": "AS_Button_a63fa7ce69b54ff88a16c16136a977b6",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOverlayShapesOnMap",
+            "type": "forms",
+            "platform": null,
+            "KUID": "22814a09a8084af19f7c6d4704afd151"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__30ed1ec3a87d467da554fb48531462d4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var polygonDataForAlabama = {\n  id:\"Alabama\",\n  locations: [\n    {lat:\"35.0041\",lon:\"-88.1955\"},\n    {lat:\"34.9918\",lon:\"-85.6068\"},\n    {lat:\"32.8404\",lon:\"-85.1756\"},\n    {lat:\"32.2593\",lon:\"-84.8927\"},\n    {lat:\"32.1535\",lon:\"-85.0342\"},\n    {lat:\"31.7947\",lon:\"-85.1358\"},\n    {lat:\"31.5200\",lon:\"-85.0438\"},\n    {lat:\"31.3384\",lon:\"-85.0836\"},\n    {lat:\"31.2093\",lon:\"-85.1070\"},\n    {lat:\"31.0023\",lon:\"-84.9944\"},\n    {lat:\"30.9953\",lon:\"-87.6009\"},\n    {lat:\"30.9423\",lon:\"-87.5926\"},\n    {lat:\"30.8539\",lon:\"-87.6256\"},\n    {lat:\"30.6745\",lon:\"-87.4072\"},\n    {lat:\"30.4404\",lon:\"-87.3688\"},\n    {lat:\"30.1463\",lon:\"-87.5240\"},\n    {lat:\"30.1546\",lon:\"-88.3864\"},\n    {lat:\"31.8939\",lon:\"-88.4743\"},\n    {lat:\"34.8938\",lon:\"-88.1021\"},\n    {lat:\"34.9479\",lon:\"-88.1721\"},\n    {lat:\"34.9107\",lon:\"-88.1461\"}\n  ],\n  navigateAndZoom: true,\n  polygonConfig:{\n\tlineColor:\"0xFF0000FF\",\n\tfillColor:\"0xFF0000FF\",\n\tlineWidth:3\n  }\n};\n\nvar polygonDataForClorado = {\n  id:\"Clorado\",\n  locations: [\n    {lat:\"37.0004\",lon:\"-109.0448\"},\n    {lat:\"36.9949\",lon:\"-102.0424\"},\n    {lat:\"41.0006\",lon:\"-102.0534\"},\n    {lat:\"40.9996\",lon:\"-109.0489\"},\n    {lat:\"37.0004\",lon:\"-109.0448\"}\n  ],\n  navigateAndZoom: true,\n  polygonConfig:{\n\tlineColor:\"0x000FF0FF\",\n\tfillColor:\"0x000FF0FF\",\n\tlineWidth:3\n  }\n};\n\nfrmMap.map.addPolygon(polygonDataForAlabama);\nfrmMap.map.addPolygon(polygonDataForClorado);\nfrmMap.show();\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

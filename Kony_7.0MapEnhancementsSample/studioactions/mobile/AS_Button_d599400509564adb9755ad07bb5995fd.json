@@ -1,0 +1,23 @@
+{
+    "AS_Button_d599400509564adb9755ad07bb5995fd": {
+        "id": "AS_Button_d599400509564adb9755ad07bb5995fd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmIntro",
+            "type": "forms",
+            "platform": null,
+            "KUID": "45a4742246ed446e8bede87447597c07"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__ad84703f4afa4e288be37f1923ef7ea2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var imageObj = kony.image.createImage(\"bluemappin.png\");\nfrmMap.map.locationData = [{\n  \t\t\t\t\t\t\tlat:\"17.4469390\",\n  \t\t\t\t\t\t\tlon:\"78.3741190\",\n  \t\t\t\t\t\t\tname:\"Using ImageObject For Pin\",\n  \t\t\t\t\t\t\tdesc:\"Kony Solutions Hyderabad Office\",\n  \t\t\t\t\t\t\t//image:\"mappin.png\"\n  \t\t\t\t\t\t\timage:{\n                              source:imageObj,\n                              sourceType:kony.map.PIN_IMG_SRC_TYPE_IMAGE,\n                              anchor:kony.map.PIN_IMG_ANCHOR_BOTTOM_CENTER\n                            }\n\t\t\t\t\t\t  }];\nfrmMap.show();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

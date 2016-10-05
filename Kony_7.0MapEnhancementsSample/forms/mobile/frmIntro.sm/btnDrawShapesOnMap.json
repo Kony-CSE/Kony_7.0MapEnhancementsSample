@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "55dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s3fdb48c39bc4fd98d2ea87a00d1b308",
+    "_text_": "Overlay shapes on map",
+    "_top_": {
+        "type": "string",
+        "value": "145dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "260dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s1b7343a0f804c69855799fee6ac1095",
+    "id": "btnDrawShapesOnMap",
+    "ide_onClick": "AS_Button_db0e1e941d7442b09348a84a3b8aff5c",
+    "info": null,
+    "isvisible": true,
+    "kuid": "27f2004319724521bbc22bca49cb7d4d",
+    "name": "kony.ui.Button",
+    "parent": "frmIntro",
+    "pf": "frmIntro",
+    "wType": "Button",
+    "zindex": 1
+}

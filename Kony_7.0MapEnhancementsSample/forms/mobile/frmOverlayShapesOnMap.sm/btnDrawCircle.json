@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "55dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s3fdb48c39bc4fd98d2ea87a00d1b308",
+    "_text_": "Draw Circle",
+    "_top_": {
+        "type": "string",
+        "value": "150dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "260dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s1b7343a0f804c69855799fee6ac1095",
+    "id": "btnDrawCircle",
+    "ide_onClick": "AS_Button_125751fb395f48b1867119bf2ac35736",
+    "info": null,
+    "isvisible": true,
+    "kuid": "96ea22c592484ddc9eff1bcd3e108b73",
+    "name": "kony.ui.Button",
+    "parent": "frmOverlayShapesOnMap",
+    "pf": "frmOverlayShapesOnMap",
+    "wType": "Button",
+    "zindex": 1
+}
